@@ -1,0 +1,35 @@
+*{
+    font-family: Arial;
+}
+
+.add-item{
+    background-color: lightgreen;
+    border: none;
+    height: 30px;
+    width: 80px;
+    margin-left: 10px;
+    border-radius: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+.delete-button{
+    background-color: lightcoral;
+    border: none;
+    height: 30px;
+    width: 80px;
+    margin-left: 10px;
+    border-radius: 15px;
+    color: black;
+    font-weight: bold;
+
+}
+
+span{
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+li{
+    height: 40px;
+}

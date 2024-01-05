@@ -15,7 +15,8 @@ addItemButton.addEventListener('click', ()=>{
     const deleteButton = document.createElement('button');
 
     //setting text contents of the element
-    deleteButton.textContent = "Delete Item";
+    deleteButton.textContent = "Delete";
+    deleteButton.classList.add("delete-button");
     itemName.textContent = item;
 
     // Adding span and button as children of list element
