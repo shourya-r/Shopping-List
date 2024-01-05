@@ -14,4 +14,14 @@ addItemButton.addEventListener('click', ()=>{
     const itemName = document.createElement('span');
     const deleteButton = document.createElement('button');
 
+    //setting text contents of the element
+    deleteButton.textContent = "Delete Item";
+    itemName.textContent = item;
+
+    // Adding span and button as children of list element
+    listElement.appendChild(itemName);
+    listElement.appendChild(deleteButton);
+
+    //Adding list element to the list
+    list.appendChild(listElement);
 })
