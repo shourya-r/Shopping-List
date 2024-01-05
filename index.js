@@ -24,4 +24,11 @@ addItemButton.addEventListener('click', ()=>{
 
     //Adding list element to the list
     list.appendChild(listElement);
-})
+
+    // When button is clicked, element deleted but removing 
+    // list element from the list
+    deleteButton.addEventListener('click', () =>{
+        list.removeChild(listElement);
+    });
+}); 
+
